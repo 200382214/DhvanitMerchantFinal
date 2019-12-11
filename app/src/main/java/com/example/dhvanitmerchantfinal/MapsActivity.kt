@@ -52,13 +52,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback,
         map.addMarker(MarkerOptions().position(cnTower).title("CN TOWER"))
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(cnTower, 12.0f))
 
-        val goldenTemple = LatLng(31.6657955, 74.9118372 )
-        map.addMarker(MarkerOptions().position(goldenTemple).title("Golden Temple"))
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(goldenTemple, 12.0f))
-
-        val Eiffel = LatLng(48.85391 ,2.2913515 )
-        map.addMarker(MarkerOptions().position(Eiffel).title("Eiffel Tower"))
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(Eiffel, 12.0f))
+//        val goldenTemple = LatLng(31.6657955, 74.9118372 )
+//        map.addMarker(MarkerOptions().position(goldenTemple).title("Golden Temple"))
+//        map.moveCamera(CameraUpdateFactory.newLatLngZoom(goldenTemple, 12.0f))
+//
+//        val Eiffel = LatLng(48.85391 ,2.2913515 )
+//        map.addMarker(MarkerOptions().position(Eiffel).title("Eiffel Tower"))
+//        map.moveCamera(CameraUpdateFactory.newLatLngZoom(Eiffel, 12.0f))
 
 
         map.getUiSettings().setZoomControlsEnabled(true)
