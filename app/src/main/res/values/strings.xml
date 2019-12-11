@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="places">Welcome to my App</string>
+    <string name="welcome">Welcome</string>
+    <string name="placevisit">Places to Visit</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="signout">SIgn Out</string>
+</resources>
